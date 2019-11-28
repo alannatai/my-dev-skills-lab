@@ -6,15 +6,58 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+#body-wrap {
+  height: 766px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #title {
-  width: 20em;
-  padding: 10px;
-  color: white;
-  background-color: rgb(130, 194, 130);
-  text-align: center;
+	width: 20em;
+	padding: 10px;
+	color: white;
+	background-color: rgb(150, 194, 130);
+	text-align: center;
 }
 
 ul {
-  color: orange;
-  font-weight: bold;
+	color: orange;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+	padding: 5px 5px 5px 0px;
+}
+
+#delete-skill {
+	color: white;
+	background-color: rgb(226, 93, 75);
+	border: none;
+	padding: 4px 10px 4px 10px;
+}
+
+li span {
+	padding-left: 10px;
+}
+
+#input-skill {
+	border: solid 5px rgb(150, 194, 130);
+	width: 30em;
+	height: 3.5em;
+	padding: 10px;
+	margin-right: 10px;
+}
+
+#add-skill-button {
+	border: solid 5px rgb(150, 194, 130);
+	width: 7.5em;
+	height: 2.8em;
+	color: rgb(150, 194, 130);
+	font-weight: bold;
+	font-size: 20px;
 }
